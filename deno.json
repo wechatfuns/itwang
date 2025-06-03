@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net proxy.ts",
+    "start": "deno run --allow-net proxy.ts"
+  },
+  "imports": {
+    "std/": "https://deno.land/std@0.220.1/"
+  }
+} 
