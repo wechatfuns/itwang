@@ -2,7 +2,7 @@ import { serve } from "https://deno.land/std@0.220.1/http/server.ts";
 
 async function handler(req: Request): Promise<Response> {
   const url = new URL(req.url);
-  const targetUrl = "https://wxmxlemizdll.sealoshzh.site/"; // 这里替换为你想要代理的目标服务器
+  const targetUrl = "https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192"; // 这里替换为你想要代理的目标服务器
 
   // 构建新的请求URL
   const proxyUrl = new URL(url.pathname + url.search, targetUrl);
